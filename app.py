@@ -22,7 +22,7 @@ with tab1:
     if 'output_text' not in st.session_state:
         st.session_state.output_text = ""
 
-    st.write("OUT TEXT: ", st.session_state.output_text)
+    st.write( st.session_state.output_text)
 
     with st.form(key='my_form'):
         col1, col2 = st.columns([3, 1])
@@ -51,7 +51,7 @@ with tab2:
     if 'wesup_output_text' not in st.session_state:
         st.session_state.wesup_output_text = ""
 
-    st.write("OUT TEXT: ", st.session_state.wesup_output_text)
+    st.write(st.session_state.wesup_output_text)
 
     with st.form(key='wesup_form'):
         col1, col2 = st.columns([3, 1])
